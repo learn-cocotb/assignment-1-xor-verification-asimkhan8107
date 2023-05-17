@@ -7,7 +7,7 @@ module dut_test(input wire a,
           .y(y));
   initial
     begin
-      $dumpfile("xor.vcd");
+      $dumpfile("waveform.vcd");
       $dumpvars;
     end
 endmodule: dut_test
