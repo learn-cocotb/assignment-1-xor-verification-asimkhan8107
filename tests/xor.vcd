@@ -1,0 +1,36 @@
+$date
+	Wed May 17 15:34:25 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module dut_test $end
+$var wire 1 ! a $end
+$var wire 1 " b $end
+$var wire 1 # y $end
+$scope module dut $end
+$var wire 1 ! a $end
+$var wire 1 " b $end
+$var wire 1 # y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0#
+0"
+0!
+$end
+#1000
+1#
+1"
+#2000
+0"
+1!
+#3000
+0#
+1"
+#4001
